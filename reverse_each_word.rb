@@ -1,3 +1,4 @@
 def reverse_each_word(sen)
-  (sen).reverse_each
+  sen.split
+  p sen
 end
