@@ -1,4 +1,4 @@
 def reverse_each_word(sen)
   sen = sen.split
-  sen.collect { |x| }
+  sen.collect { |x| x.reverse }
 end
